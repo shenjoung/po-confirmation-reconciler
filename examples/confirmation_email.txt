@@ -1,0 +1,16 @@
+From: orders@acme-supply.example
+Subject: RE: PO 45-1180 confirmation
+
+Hi,
+
+Confirming PO 45-1180 as follows:
+
+- BR-1001 steel bracket small: 200 pcs @ $1.20, ships Dec 1
+- BR-1002 steel bracket large: 100 pcs @ $1.85 ship Dec 1, remaining 50 pcs on backorder until Jan 15 2027
+- RF-2001 rubber feet: we can do 600 (case pack), $0.42 each
+- MS-3001 mounting screws: 80 boxes, new price $3.95/box effective this month
+- WA-4001 wall anchor heavy duty: discontinued, sorry
+- CT-5001 cable ties: 1000 @ $0.05
+
+Best,
+Acme Supply

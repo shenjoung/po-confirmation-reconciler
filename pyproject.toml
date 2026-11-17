@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poreconcile"
+version = "0.1.0"
+description = "Compare vendor order confirmations with purchase orders, with a human approval step"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["openpyxl>=3.1"]
+
+[project.optional-dependencies]
+llm = ["anthropic>=0.75"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+poreconcile = "poreconcile.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "--doctest-modules"
+testpaths = ["tests", "src"]
